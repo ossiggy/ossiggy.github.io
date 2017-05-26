@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+
+#results {
+	margin-right: auto;
+	text-align: center;
+	color: #00d0ff;
+}
+
+ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+}
+
+.colorList {
+	width: 70%;	
+}
+
+.colorList li {
+	float: left;
+	transition:all .2s ease;
+}
+
+
+#colorSwatch:hover {
+	z-index: 2;
+}
+
+.colorList li span {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	position:absolute;
+    top:100%;
+    left:50%;
+    transform:translate(-50%, 0);
+    transition:all .2s ease;
+    transition-delay:0s;
+    padding:.5em;
+}
+
+#colorSwatch {
+	height:50px;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	transition: .2s all ease;
+	box-shadow: 2px 2px 2px black;
+	overflow: hidden;
+}
+
+#exteriorColorOptions {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	color: white;
+	margin: 0;
+}
+
+h2, h3 {
+	color: #b200ff;
+}
+
+#gradient {
+	height:200px;
+	position: relative;
+	background: #b731f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #b731f9 0%, #1af2d5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #b731f9 0%,#1af2d5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #b731f9 0%,#1af2d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b731f9', endColorstr='#1af2d5',GradientType=0 ); /* IE6-9 */
+
+}
+
+#gradient-slope {
+	border: 20px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-width: 30px 50vw 30px 50vw;
+	border-color: transparent white white transparent;
+}
+
+.header {
+	background-image: url(giphy.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 25%;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 275px 275px 5px 5px;
+	color: white;
+	text-shadow: 2px 2px 0 black;
+	background-color:rgba(0%, 0%, 0%, .5);
+}
