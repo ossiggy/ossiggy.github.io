@@ -11,5 +11,5 @@ So, in order to simplify that, I created an app that will give you the engine da
 I used the Edmund's API to gain access to a wealth of information.  I displayed it in bright colors because car shopping is the best time you can have and you should be having a blast doing it.  
 <h2 id="instructions">How To Use This Site</h2>
 You should start out at this screen with three drop down boxes.  The first box asks you to select a year.
-![alt text](assets/tellMeAboutTheEngine1.png "Home Page")
+![alt text](https://github.com/ossiggy/tell-me-about-the-engine/assets/tellMeAboutTheEngine1.png "Home Page")
 
