@@ -12,5 +12,5 @@ I used the Edmund's API to gain access to a wealth of information.  I displayed 
 <h2 id="instructions">How To Use This Site</h2>
 You should start out at this screen with three drop down boxes.  The first box asks you to select a year.
 
-<img alt="Landing Page" src="https://github.com/ossiggy/tell-me-about-the-engine/assets/tellMeAboutTheEngine1.png">
+<img alt="Landing Page" src="assets/tellMeAboutTheEngine1.png">
 
