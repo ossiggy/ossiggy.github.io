@@ -67,7 +67,7 @@ form {
 }
 
 
-form select {
+form select, form button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -82,10 +82,6 @@ form select[hidden] {
 
 form select.full-width {
 	display: block;
-}
-
-form button {
-	width: 90px;
 }
 
 body {
