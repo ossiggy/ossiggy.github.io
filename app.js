@@ -26,7 +26,7 @@ function generateMakes(event){
 			return "<option>Select Make</option>"+response.makes.map(function(make){
 				return "<option data-models='"+JSON.stringify(make.models)+"'>"+make.name+"</option>"
 			})
-		})
+		}).addClass("full-width").show()
 	})
 }
 
@@ -36,7 +36,7 @@ function generateModels(event){
 		return "<option>Select Model</option>"+models.map(function(model){
 			return "<option>"+model.name+"</option>"
 		})
-	})
+	}).addClass("full-width").show()
 }
 
 function filter(object){

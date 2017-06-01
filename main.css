@@ -66,11 +66,22 @@ form {
 	padding-top: 20px;
 }
 
+
 form select {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 90px;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+}
+
+form select[hidden] {
+	display: none;
+}
+
+form select.full-width {
+	display: block;
 }
 
 form button {
