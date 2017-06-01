@@ -1,6 +1,6 @@
 $(".year").on("change", generateMakes)
 $(".make").on("change", generateModels)
-$("#submit").on("click", onFormSubmit)
+$("#car-form").on("submit", onFormSubmit)
 
 function returnEngineInfo(make, model, year){
 	var url = "https://api.edmunds.com/api/vehicle/v2/"+make+"/"+model+"/"+year+"/styles?view=full&fmt=json&api_key=g6y8ssp8rd5zz8qp2tc74p3w"
