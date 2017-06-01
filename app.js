@@ -168,6 +168,9 @@ function show(object){
 		var index = $(this).children().index(target.parent())
 		var $all = $(this).children()
 		console.log(target)
+		if($all.length==1){
+			$all.css("width", "100%")
+		}
 		if($all.length==3){
 			console.log("here")
 			console.log($all.length)
